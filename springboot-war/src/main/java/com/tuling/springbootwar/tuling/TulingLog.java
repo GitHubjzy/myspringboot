@@ -6,5 +6,7 @@ package com.tuling.springbootwar.tuling;
  * @since 1.0.0
  */
 public class TulingLog {
-
+    public void test(){
+        System.out.println("这是我的测试回退文件！！！");
+    }
 }
