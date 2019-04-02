@@ -6,4 +6,5 @@ package com.tuling.springbootwar.controller;
  * @since 1.0.0
  */
 public class AController {
+    int a =1;
 }
