@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="myspringboot" />
+        <module name="springboot-jar" />
+        <module name="springboot-war" />
+        <module name="um-manager" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myspringboot" target="1.8" />
+      <module name="springboot-jar" target="1.8" />
+      <module name="springboot-war" target="1.8" />
+      <module name="um-manager" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="myspringboot" options="-parameters" />
+      <module name="springboot-jar" options="-parameters" />
+      <module name="springboot-war" options="-parameters" />
+      <module name="um-manager" options="-parameters" />
+    </option>
+  </component>
+</project>
