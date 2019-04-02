@@ -6,4 +6,5 @@ package com.tuling.springbootwar.tuling;
  * @since 1.0.0
  */
 public class TulingLog {
+    
 }
