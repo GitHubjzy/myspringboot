@@ -7,5 +7,9 @@ package com.tuling.springbootwar.controller;
  */
 public class AController {
 
+
     int b = 4;
+
+    int a =1;
+    String str = "-v5.0 merge update!!!";
 }
